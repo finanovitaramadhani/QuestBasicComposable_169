@@ -150,6 +150,17 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Fit
             )
 
+            Text(
+                text = "Jakarta Smart City",
+                fontSize = 50.sp,
+                color = Color.Green,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(Alignment.Center)
+            )
         }
+    }
 }
+
+
 
