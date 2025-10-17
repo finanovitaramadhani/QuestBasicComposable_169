@@ -144,6 +144,11 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 .background(color = Color.Blue),
             contentAlignment = Alignment.Center
         ) {
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
 
         }
 }
